@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -52,8 +51,8 @@
         select, input, textarea, button {
             width: 100%;
             margin-top: 8px;
-            padding: 10px;
-            font-size: 1em;
+            padding: 8px;
+            font-size: 0.9em;
             border: 1px solid #a1c4fd;
             border-radius: 8px;
             background-color: #f9faff;
@@ -80,7 +79,7 @@
         }
         .checkbox-group {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
             gap: 5px;
         }
         .checkbox-group label {
@@ -146,7 +145,13 @@
     
     <form id="quoteForm">
         <h2>Get a Quote</h2>
-        
+
+        <label for="serviceType">What service do you need?</label>
+        <select id="serviceType" name="serviceType" onchange="toggleFields()" required>
+            <option value="privateChef">Private Chef for a Day</option>
+            <option value="tourChef">Tour Chef Services</option>
+        </select>
+
         <label for="name">Your Name:</label>
         <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
@@ -155,12 +160,6 @@
 
         <label for="email">Your Email:</label>
         <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-        
-        <label for="serviceType">What service do you need?</label>
-        <select id="serviceType" name="serviceType" onchange="toggleFields()" required>
-            <option value="privateChef">Private Chef for a Day</option>
-            <option value="tourChef">Tour Chef Services</option>
-        </select>
 
         <div id="tourPeopleField" class="hidden">
             <label for="tourPeople">Number of people on tour:</label>
