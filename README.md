@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -20,41 +21,41 @@
             border-bottom: 5px solid #356abd;
         }
         header h1 {
-            font-size: 2.8em;
+            font-size: 2em;
             margin: 0;
             letter-spacing: 1.5px;
             text-shadow: 1px 1px #2c5282;
         }
         header p {
-            font-size: 1.3em;
+            font-size: 1.1em;
             margin: 5px 0 15px;
             color: #dce7f8;
         }
         .container {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 20px;
+            max-width: 95%;
+            margin: 10px auto;
+            padding: 10px;
             background-color: #fff;
-            border-radius: 15px;
-            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
-            border: 2px solid #a1c4fd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #a1c4fd;
         }
         form {
             text-align: left;
         }
         label {
             font-weight: bold;
-            margin-top: 15px;
+            margin-top: 10px;
             display: block;
             color: #4a90e2;
         }
         select, input, textarea, button {
             width: 100%;
-            margin-top: 10px;
-            padding: 12px;
-            font-size: 1.1em;
+            margin-top: 8px;
+            padding: 10px;
+            font-size: 1em;
             border: 1px solid #a1c4fd;
-            border-radius: 10px;
+            border-radius: 8px;
             background-color: #f9faff;
             outline: none;
             transition: all 0.3s ease;
@@ -75,41 +76,41 @@
             transform: scale(1.05);
         }
         textarea {
-            height: 120px;
+            height: 100px;
         }
         .checkbox-group {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 5px;
         }
         .checkbox-group label {
             margin: 0;
-            font-size: 1em;
+            font-size: 0.9em;
             font-weight: normal;
             color: #333;
         }
         .about {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             position: relative;
             background-color: #e1edfa;
-            border: 2px solid #4a90e2;
-            border-radius: 20px;
-            padding: 15px;
-            width: 85%;
-            margin: 20px auto;
-            font-size: 0.9em;
+            border: 1px solid #4a90e2;
+            border-radius: 15px;
+            padding: 10px;
+            width: 95%;
+            margin: 10px auto;
+            font-size: 0.85em;
             text-align: left;
-            line-height: 1.6;
+            line-height: 1.4;
         }
         .about:before {
             content: '';
             position: absolute;
-            bottom: -15px;
-            left: 40px;
-            width: 30px;
-            height: 30px;
+            bottom: -10px;
+            left: 30px;
+            width: 20px;
+            height: 20px;
             background-color: #e1edfa;
-            border: 2px solid #4a90e2;
+            border: 1px solid #4a90e2;
             border-radius: 50%;
             transform: rotate(45deg);
             z-index: -1;
@@ -118,8 +119,8 @@
             display: none;
         }
         footer {
-            margin-top: 30px;
-            font-size: 0.9em;
+            margin-top: 20px;
+            font-size: 0.8em;
             color: #6c757d;
         }
         footer p {
